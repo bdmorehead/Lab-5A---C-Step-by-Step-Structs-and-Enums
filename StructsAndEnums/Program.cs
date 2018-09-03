@@ -14,9 +14,18 @@ namespace StructsAndEnums
     {
         static void doWork()
         {
-            // TODO:
-        }
 
+            Month first = Month.December;
+            Console.WriteLine(first);
+            first++;
+            Console.WriteLine(first);
+            
+            Date defaultDate = new Date();
+            Console.WriteLine(defaultDate);
+            Date weddingAnniversary = new Date(2015, Month.July, 4);
+            Console.WriteLine(weddingAnniversary);
+        }
+     
         static void Main()
         {
             try
